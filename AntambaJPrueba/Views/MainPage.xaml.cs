@@ -1,12 +1,11 @@
-﻿namespace AntambaJPrueba.Views;
+namespace AntambaJPrueba.Views;
 
 public partial class MainPage : ContentPage
 {
-
-    public MainPage()
-    {
-        InitializeComponent();
-    }
+	public MainPage()
+	{
+		InitializeComponent();
+	}
 
     private void IrAJokesPage_Clicked(object sender, EventArgs e)
     {
