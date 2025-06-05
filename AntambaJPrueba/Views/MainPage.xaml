@@ -8,13 +8,14 @@
     <ScrollView>
         <VerticalStackLayout
             Padding = "30,0"
-            Spacing="25">
+            Spacing="25"
+            BackgroundColor="LightGray">
 
 
             <Label Text="Bienvenido a la APP de Chistes :)"
                    FontSize="30"
                    HorizontalOptions="Center"
-                   TextColor="#333" />
+                   TextColor="Black" />
 
             <Label Text="Creado por Juan Carlos Antamba"
                    FontSize="14"
