@@ -1,0 +1,46 @@
+﻿ ﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AntambaJPrueba.Views.MainPage"
+             Title="MainPage">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+
+            <Label
+                Text="Hola Mundo!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Bienvenido APP CHISTES (JUAN ANTAMBA)"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Image
+                Source="https://i.pinimg.com/236x/42/73/af/4273afc1c0785b37d242ee19584a2289.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Button
+                x:Name="IrAJokesPage"
+                Text="Cuentame un chiste" 
+                SemanticProperties.Hint="Te mostrara un chiste"
+                Clicked="IrAJokesPage_Clicked" />
+
+            <Button
+                x:Name="IrAAboutPage"
+                Text="Acerca de mi" 
+                SemanticProperties.Hint="Muestra informacion personal"
+                Clicked="IrAAboutPage_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
