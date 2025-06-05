@@ -9,7 +9,7 @@
         <VerticalStackLayout
             Padding = "30,0"
             Spacing="25"
-            BackgroundColor="LightGray">
+            BackgroundColor="LightGoldenrodYellow">
 
 
             <Label Text="Bienvenido a la APP de Chistes :)"
