@@ -23,11 +23,11 @@
             <BoxView 
                 Grid.Row="0" 
                 Grid.Column="0" 
-                Color="Red" />
+                Color="Orange" />
             <BoxView 
                 Grid.Row="0" 
                 Grid.Column="1" 
-                Color="Green" />
+                Color="BlueViolet" />
             <BoxView 
                 Grid.Row="1" 
                 Grid.Column="0" 
@@ -35,7 +35,7 @@
             <BoxView 
                 Grid.Row="1" 
                 Grid.Column="1" 
-                Color="Yellow" />
+                Color="GreenYellow" />
 
             <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center">
                 <Label Text="Nombre:" FontAttributes="Bold" />
