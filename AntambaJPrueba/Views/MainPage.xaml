@@ -11,35 +11,45 @@
             Spacing="25">
 
 
-            <Label
-                Text = "Hola Mundo!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+            <Label Text="Bienvenido a la APP de Chistes :)"
+                   FontSize="30"
+                   HorizontalOptions="Center"
+                   TextColor="#333" />
 
-            <Label
-                Text = "Bienvenido APP CHISTES (JUAN ANTAMBA)"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <Label Text="Creado por Juan Carlos Antamba"
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   TextColor="Gray" />
 
-            <Image
-                Source = "https://www.mpcmanagement.es/wp-content/uploads/2018/07/Naranja.jpg"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+            
+            <Frame HasShadow="True"
+                   BorderColor="Orange"
+                   CornerRadius="20"
+                   Padding="0"
+                   Margin="0,10">
+                <Image Source="https://www.mpcmanagement.es/wp-content/uploads/2018/07/Naranja.jpg"
+                       HeightRequest="200"
+                       Aspect="AspectFill" />
+            </Frame>
 
-            <Button
-                x:Name="IrAJokesPage"
-                Text="Cuentame un chiste" 
-                SemanticProperties.Hint="Te mostrara un chiste"
-                Clicked="IrAJokesPage_Clicked" />
+        
+            <Button x:Name="IrAJokesPage"
+                    Text="¡Cuéntame un chiste!"
+                    FontAttributes="Bold"
+                    BackgroundColor="Orange"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="IrAJokesPage_Clicked" />
 
-            <Button
-                x:Name="IrAAboutPage"
-                Text="Acerca de mi" 
-                SemanticProperties.Hint="Muestra informacion personal"
-                Clicked="IrAAboutPage_Clicked" />
-
+            <Button x:Name="IrAAboutPage"
+                    Text="Acerca de mí"
+                    FontAttributes="Bold"
+                    BackgroundColor="DeepSkyBlue"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="IrAAboutPage_Clicked" />
         </VerticalStackLayout>
     </ScrollView>
 
