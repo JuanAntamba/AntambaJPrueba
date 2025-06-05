@@ -23,7 +23,7 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Image
-                Source = "https://cdn.creazilla.com/emojis/43030/smiling-face-with-smiling-eyes-emoji-clipart-md.png"
+                Source = "https://www.mpcmanagement.es/wp-content/uploads/2018/07/Naranja.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
